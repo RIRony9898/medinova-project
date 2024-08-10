@@ -1,9 +1,50 @@
+/* Roboto condensed font link */
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
+
 /* Utilities styles start */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.container {
+  max-width: 1140px;
+  /* border: 2px solid red; */
+  margin: 0 auto;
+}
+
+.gray {
+    color: #848E9F;
+}
+
+.flex {
+    display: flex;
+}
 /* Utilities styles end */
 
 /* =================================== */
 
 /* Header section start */
+
+/* Social section start */
+.socials {
+    justify-content: space-between;
+    padding: 10px 0;
+    color: #848E9F;
+}
+.social-left {
+    gap: 20px;
+}
+.social-right a{
+    margin-left: 14px;
+    color: #848E9F;
+}
+/* Social section end */
+
 /* Header section end */
 
 /* ================================== */
