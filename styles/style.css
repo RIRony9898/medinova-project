@@ -28,6 +28,24 @@ body {
 .flex {
     display: flex;
 }
+.section-title {
+    font-size: 20px;
+    font-weight: 700;
+    color: #13C5DD;
+    border-bottom: 5px solid #848E9F;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+.section-moto {
+    font-size: 56px;
+    font-weight: 700;
+    color: #1D2A4D;
+    margin-bottom: 24px;
+}
+.section-description {
+    color: #848e9f;
+}
 /* Utilities styles end */
 
 /* =================================== */
@@ -81,6 +99,7 @@ nav {
 .hero-container {
     background-image: url("../assets/images/hero.jpg");
     height: 511px;
+    background-size: cover;
 }
 .hero {
     display: flex;
@@ -89,12 +108,7 @@ nav {
     align-items: flex-start;
     height: 100%;
 }
-.greetings {
-    font-size: 20px;
-    font-weight: 700;
-    border-bottom: 5px solid #848E9F;
-    margin-bottom: 10px;
-}
+
 
 .hero-container h1 {
     color: white;
@@ -133,6 +147,32 @@ nav {
 /* ================================== */
 
 /* Main section start */
+/* About us section start */
+.about-us {
+    margin-top: 50px;
+    gap: 40px;
+}
+.about-us img {
+    width: 40%;
+    border-radius: 8px;
+}
+.about-us-cards {
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.about-us-card {
+    background: #EFF5F9;
+    text-align: center;
+    border-radius: 50%;
+    font-weight: 700;
+    padding: 24px 40px;
+}
+.about-us-card-logo {
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 16px;
+}
+/* About us section end */
 /* Main section end */
 
 /* =================================== */
