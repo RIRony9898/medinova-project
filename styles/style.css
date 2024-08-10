@@ -78,6 +78,54 @@ nav {
 
 
 /* Banner section start */
+.hero-container {
+    background-image: url("../assets/images/hero.jpg");
+    height: 511px;
+}
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100%;
+}
+.greetings {
+    font-size: 20px;
+    font-weight: 700;
+    border-bottom: 5px solid #848E9F;
+    margin-bottom: 10px;
+}
+
+.hero-container h1 {
+    color: white;
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 96px;
+    margin-bottom: 32px;
+}
+
+.banner-btn {
+    font-weight: 700;
+    padding: 16px 48px;
+    color: black;
+    background: white;
+    border-radius: 30px;
+    margin-right: 20px;
+}
+
+.banner-btn {
+    text-decoration: none;
+}
+
+.btn-2 {
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+}
+
+.btn-2 {
+    text-decoration: none
+}
 /* Banner section end */
 
 /* Header section end */
